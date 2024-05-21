@@ -1,5 +1,5 @@
 import React from "react";
-import SemiCircleProgressBar from "react-progressbar-semicircle";
+import ProgressBar from "./ProgressBar";
 
 const Storage = () => {
   return (
@@ -8,8 +8,7 @@ const Storage = () => {
         Storage
       </h1>
       <div className="flex flex-col items-center gap-2">
-        <SemiCircleProgressBar percentage={88} style={{width:"100px"}} strokeWidth={12} stroke={"#011627"}/>
-        <p className="text-[#8D969E]"> 88GB out of 100Gb(88%)</p>
+        <ProgressBar percentage={88}/>
         <button className="text-[#0171FE] tablet:w-[80%] laptop:w-full desktop:w-[80%] border-2 p-2 rounded-full w-[80%] border-[#0171FE]">
           View Details
         </button>

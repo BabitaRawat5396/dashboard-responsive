@@ -8,3 +8,32 @@ body {
   height: 100vh;
   background-color: gainsboro;
 }
+
+.progress {
+  position: relative;
+  margin: 4px;
+  float: left;
+  text-align: center;
+}
+
+.barOverflow {
+  
+  position: relative;
+  overflow: hidden;
+  width: 90px;
+  height: 45px;
+  margin-bottom: -14px;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 10px solid #eee;
+  border-bottom-color: #011627;
+  border-right-color: #011627;
+}
